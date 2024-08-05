@@ -1,0 +1,122 @@
+(footprint "BAL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0345d466-2da9-410f-9476-a591e359a006")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BAL"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b95c8e5d-08c5-4b9e-90e7-b013fe83d7d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "968bde99-c2ac-4670-bfc3-c3b9ecd7553b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a15aa99c-96e0-4227-a67b-d06ca13dd3ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72473200-9ee6-449a-8ad5-94c849f7e787")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10.25 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f7f790de-e4e1-4d9a-8908-95dbb55a59e5")
+	)
+	(fp_line
+		(start -9 -4.905354)
+		(end -9 4.905354)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ec0ede3c-ef4c-4c14-ad0b-25c4c9378c9a")
+	)
+	(fp_line
+		(start 9 -4.905354)
+		(end 9 4.905354)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cb079b52-a691-4c11-a38c-0097ab99ab1a")
+	)
+	(fp_arc
+		(start -9 -4.905354)
+		(mid 0 -10.25)
+		(end 9 -4.905354)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "638b4217-dc75-436d-96ba-cd94a7949dc2")
+	)
+	(fp_arc
+		(start 9 4.905354)
+		(mid 0 10.25)
+		(end -9 4.905354)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7f9c7e0d-b253-43aa-b4b6-8457cf4a6085")
+	)
+)

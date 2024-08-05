@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BAL")(type "KiCad")(uri "${KIPRJMOD}/BAL.pretty")(options "")(descr ""))
+)
